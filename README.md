@@ -4,10 +4,11 @@ Projeto desenvolvido com o intuito de aprendizado para melhor implementação de
 
 ## Getting Started
 
-docker build -t frsiqueira/logs .
-
-docker run --name logs -p 8080:8080 -t logs-study
-
+```
+$ mvn clean install
+$ docker build -t frsiqueira/logs .
+$ docker run --name logs -p 8080:8080 -t frsiqueira/logs
+```
 ### Prerequisites
 
 What things you need to install the software and how to install them
