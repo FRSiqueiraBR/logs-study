@@ -4,9 +4,9 @@ Projeto desenvolvido com o intuito de aprendizado para melhor implementação de
 
 ## Getting Started
 
-docker build -f Dockerfile -t logs-study .
+docker build -t frsiqueira/logs .
 
-docker run -p 8080:8080 -t logs-study
+docker run --name logs -p 8080:8080 -t logs-study
 
 ### Prerequisites
 
